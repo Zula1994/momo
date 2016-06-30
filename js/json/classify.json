@@ -1,0 +1,19 @@
+{
+  "data" : [
+    {"title": "服饰","imgSrc" : "img/apparel.png"},
+    {"title": "鞋包","imgSrc" : "img/shoeBagWatch.png"},
+    {"title": "精品配饰","imgSrc" : "img/giftsJewelry.png"},
+    {"title":"美妆","imgSrc":"img/beauty.png"},
+    {"title":"妇幼","imgSrc":"img/womenChildren.png"},
+    {"title":"内衣","imgSrc":"img/underwear.png"},
+    {"title":"3C","imgSrc":"img/3c.png"},
+    {"title":"家电","imgSrc":"img/homeAppliances.png"},
+    {"title":"运动休闲","imgSrc":"img/motionCar.png"},
+    {"title":"保健","imgSrc":"img/health.png"},
+    {"title":"生活用品","imgSrc":"img/lifeArticles.png"},
+    {"title":"家具寝饰","imgSrc":"img/furniture.png"},
+    {"title":"食品","imgSrc":"img/food.png"},
+    {"title":"宗教艺术","imgSrc":"img/religionArt.png"},
+    {"title":"旅游票券","imgSrc":"img/travelTicket.png"}
+  ]
+}

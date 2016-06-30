@@ -1,0 +1,16 @@
+<ion-view>
+    <ion-content class="has-header" ng-controller="loginCtrl">
+        <div class="user_form">
+            <form novalidate>
+                <input type="text" placeholder="请输入用户名" ng-model="userID" class="user_txt"/>
+                <input type="password" placeholder="请输入密码" ng-model="password" class="user_txt"/>
+                <div class="captcha">
+                <input type="text" ng-model="captcha" placeholder="请输入右边6位数字" class="user_captcha user_txt fl">
+                <div class="drawImg user_txt fr" id="vCode"></div>
+                <input type="button" ng-click="login()" class="user_btn" value="Sign in"/>
+                </div>
+                <input type="button" ng-click="register()" class="user_btn fr" value="Sign up"/>
+            </form>
+        </div>
+    </ion-content>
+</ion-view>

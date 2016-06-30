@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;}
+.fl{float: left}
+.fr{
+    float: right;}
+.clear{zoom: 1;}
+.clear:after{content: ""; display: block; clear: both;}
+@media screen and (min-width:375px){
+    #classify .buttonViewArea ul li{
+        padding-left: 48.75px!important;
+    }
+}
+@media screen and (min-width:414px){
+    #classify .buttonViewArea ul li{
+        padding-left: 34.8px!important;
+    }
+}
+
+/*animation*/
+@keyframes scrollText {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-60px);
+    }
+    50%{
+        transform: translateY(-120px);
+    }
+    75%{
+        transform: translateY(-180px);
+    }
+    100%{
+        transform: translateY(-240px);
+    }
+}
+.bar {
+    padding: 0 !important;
+}
+.pink {
+    background: #e5047e !important;
+}
+
+.classification {
+    float: left;
+    background: transparent url('../img/classificationImg.png') no-repeat center center;
+    background-size: 31% auto;
+    width: 50px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    z-index: 20;
+}
+.logo {
+    width: 150px;
+    height: 44px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 30;
+}
+.logo img{
+    width: 110px;
+    height:17px;
+    position: absolute;
+    top:15px;
+    left: 30px;
+}
+
+.fourLinkArea{
+    background: #F5F5F5;
+    height: 45px;
+    border-bottom: 1px solid #aeaeae;
+    font: 15px/45px Helvetica;
+}
+.fourLinkArea li{
+    float: left;
+    height: 45px;
+    text-align: center;
+    width: 25%;
+}
+.fourLinkArea li.select{
+    border-bottom: 1px solid #e5047e;
+}
+
+.bannerBox{
+    width: 100%;
+    height: 160px;
+}
+.bannerBox img{
+    width:100%;
+    height: 100%;
+}
+.content{
+    background: #F5F5F5;
+}
+
+.tipsMenuArea{
+    background-color: #FFFFFF;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0px auto 10px !important;
+    clear: both;
+    overflow: hidden;
+}
+.tipsMenuArea ul li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+.tipsMenuArea ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.tipsMenuArea ul li a img {
+    width: 36px;
+    height: auto;
+    vertical-align: middle;
+    margin: 10px 0px 0px;
+}
+.tipsMenuArea ul li a p {
+    font: 16px/20px Helvetica;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.smallBannerArea {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0px auto 10px!important;
+    padding: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.smallBannerArea img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.smallBannerArea ul.style3 li{
+    float: left;
+    width: 32%;
+    max-width: 205px;
+}
+.smallBannerArea ul.style2 li{
+    float: left;
+    width: 50%;
+}
+.smallBannerArea .style2 li:first-child {
+    padding: 0px 5px 0px 0px;
+}
+.smallBannerArea ul.style3 li:nth-child(2) {
+    margin: 0px 2%;
+}
+
+.hotTextArea {
+    width: 100%;
+    max-width: 640px;
+    height: 60px;
+    padding: 0px;
+    margin: 0px auto 10px!important;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
+.hotTextArea img {
+    float: left;
+    border: 0px;
+    vertical-align: top;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.hotTextArea ul {
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    padding: 0px 0px 0px 105px;
+    list-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+    box-sizing: padding-box;
+    overflow: hidden;
+    position: relative;
+    -webkit-animation:scrollText 12s infinite  cubic-bezier(1,0,0.5,0) ;
+    animation:scrollText 12s infinite  cubic-bezier(1,0,0.5,0) ;
+}
+.hotTextArea ul li {
+    float: left;
+    width: 100%;
+    padding: 10px 0px;
+
+}
+.hotTextArea ul li span {
+    display: block;
+    width: 100%;
+    height: 20px;
+    font: 15px/20px Helvetica;
+    color: #000000;
+    text-align: left;
+    overflow: hidden;
+}
+.hotTextArea ul li .secondHotText {
+    color: #d62872;
+}
+
+.innerArea {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+}
+.innerArea .titleArea {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 640px;
+    position: relative;
+}
+.innerArea .titleArea h2 {
+    margin: 0px auto;
+    padding: 0px;
+    width: 100%;
+    max-width: 640px;
+    height: 40px;
+    font: 15px/40px Helvetica;
+    color: #ffffff;
+    position: relative;
+}
+.innerArea .titleArea h2 img {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.innerArea .titleArea h2:before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: auto 40px;
+    float: left;
+    background: transparent url('../img/title_leftbg.png') no-repeat left center;
+}
+.innerArea .titleArea h2:after {
+    float: right;
+    background: transparent url('../img/title_rightbg.png') no-repeat right center;
+    background-size: auto 40px;
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.innerArea .threePrdStyle {
+    padding: 0px;
+}
+.innerArea .prdList {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 640px;
+    background-color: #FFFFFF;
+}
+.innerArea .prdList ul {
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+}
+.innerArea .prdList ul li {
+    float: left;
+    width: 50%;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 5px 0px 0px;
+    box-sizing: border-box;
+    box-sizing: padding-box;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 5px 0px 0px;
+}
+#btTvLiveContent ul li{
+    padding: 0px;
+}
+.innerArea .threePrd ul li:nth-child(3n+2) {
+    margin: 0px 2% 10px 2%;
+}
+.innerArea .threePrd ul li {
+    width: 32%;
+}
+.innerArea .prdList ul li a {
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    text-decoration: none;
+    display: block;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    cursor: pointer;
+}
+.innerArea .threePrd ul li a {
+    background-color: transparent;
+    padding: 0px 0px 5px;
+}
+.innerArea .prdList ul li a img {
+    width: 100%;
+    display: inline-block;
+    border: 0px;
+    vertical-align: top;
+}
+.innerArea .prdList ul li a p {
+    font: 15px/20px Helvetica;
+    color: #484848;
+    margin: 10px 10px 0px 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+.innerArea .prdList ul li a .prdPrice, .innerArea #maybeLikeContent ul li a .price {
+    height: 20px;
+    font: 12px/20px Helvetica;
+    color: #D62872;
+    overflow: hidden;
+    position: relative;
+}
+.innerArea .prdList ul li a .prdPrice b, .innerArea #maybeLikeContent ul li a .price b {
+    font: 17px/20px Century Gothic;
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+.innerArea #btTvLiveContent ul li a .prdName {
+    height: 40px;
+}
+.innerArea .popularList ul {
+    padding: 0px;
+}
+.innerArea .popularList ul li {
+    float: left;
+    width: 100%;
+    background: #555;
+    border-top: 5px solid #F2F2F2;
+}
+.innerArea .popularList ul li:nth-child(odd), .innerArea .popularList ul li:nth-child(even) {
+    padding: 0px;
+    margin: 0px;
+}
+.innerArea .popularList ul li:first-child {
+    border-top: 0px;
+}
+.innerArea .popularList ul li a {
+    float: left;
+    width: 100%;
+    height: 160px;
+    margin: 0px;
+    padding: 10px 0px;
+    background: #FFFFFF;
+    position: relative;
+}
+.innerArea .popularList ul li a img {
+    width: 160px;
+    height: 160px;
+    vertical-align: top;
+    border: 0px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.innerArea .popularList ul li a p {
+    float: left;
+    margin: 0px;
+    padding: 0px 0px 0px 170px;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+.innerArea .popularList ul li a .prdName {
+    height: 50px;
+    font: 18px/25px Helvetica;
+    color: #484848;
+}
+.innerArea .popularList ul li a .specialText {
+    height: 50px;
+    font: 18px/25px Helvetica;
+    color: #D62872;
+}
+.innerArea .popularList ul li a .prdPrice {
+    height: 20px;
+    font: 14px/20px Helvetica;
+    color: #D62872;
+    margin-top: 30px;
+}
+.innerArea .popularList ul li a .prdPrice b {
+    display: inline-block;
+    font: 20px/20px Century Gothic;
+    color: #D62872;
+    position: absolute;
+    top: 0px;
+    left: 180px;
+}
+.basicInformation p{
+    height: 30px;
+    text-align: center;
+    background: #eee;
+    line-height: 30px;
+}
+
+/*owner*/
+.user{
+    height: 100px;
+    width:100%;
+    position: relative;
+    background: #e5047e ;
+}
+.user_img{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    height: 80px;
+    width: 80px;
+border: 1px solid #eeeeee;
+border-radius: 50%}
+.user_name{
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 100px;
+    top: 45px;
+}
+.vip{
+    width: 60px;
+    padding-left: 10px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    height: 20px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 20px 0 0 20px;
+}
+.menu{width: 100%!important;}
+.menu ul{
+    width:100%;
+}
+.menu .item{
+    padding: 0!important;
+}
+.menu h2{
+    height: 30px;
+    font-size: 1rem;
+    background: #DFDFDF;
+    line-height: 30px;
+    font-weight: bold;
+    padding-left: 12px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.menu .item a{
+    heigth: 1;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    padding: 0 15px;
+    color: #333333;
+}
+.menu .item span{
+    float: right;
+    background: transparent url(../img/navddspanBk.png?t=201405080001) no-repeat 0px -1px;
+    width: 7px;
+    height: 35px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/*login*/
+.user_form{
+    margin-top: 20px;
+    padding: 0 1rem;
+}
+.user_form .user_txt{
+    width: 100%;
+    border: 1px #ccc solid;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.captcha {
+    height: 40px;
+}
+.captcha .user_captcha{
+    width: 50%;
+
+}
+.captcha .drawImg{
+    width: 45%;
+}
+.user_btn{
+    margin-top: 30px;
+    width: 48%;
+    height: 40px;
+    background: #e5047e;
+    border: 0;
+    color: #fff;
+    box-shadow: 2px 2px 2px #ddd;
+}
+
+
+/*classify*/
+#classify h3{
+    background-color: #E5047E;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+#classify h3 .memberBtn {
+    float: left;
+    width: auto;
+    height: 50px;
+    background: transparent url("../img/memberbg.png") no-repeat 10px center /auto 70%;
+    padding-left: 45px;
+    font: bold 15px/50px Helvetica;
+    color: #FFFFFF;
+}
+#classify h3 .memberBtn a {
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    padding: 0px 5px;
+    font: bold 15px/50px Helvetica;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+#classify h3 .memberBtn .loginBtn {
+    margin-right: 5px;
+}
+#classify h3 .memberBtn .registerBtn {
+     margin-left: 5px;
+ }
+#classify h3 .closeBtn {
+    background: transparent url("../img/colseIcon.png") no-repeat center center;
+    background-size: 30%;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+.classify{
+    background-color: #F3F3F3;
+    top: 50px!important;
+}
+#classify .buttonViewArea{
+
+    margin: 0px;
+    height: auto;
+    position: relative;
+    left: 0px;
+    width: 100%;
+}
+#classify .buttonViewArea ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#classify .buttonViewArea ul li {
+    float: left;
+    height: 85px;
+    margin: 5px 0px;
+    padding: 0px 0px 0px 35px;
+}
+
+#classify .buttonViewArea ul li a {
+    background-color: rgba(255, 185, 94,1);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+#classify .buttonViewArea ul li a:nth-child(2n){
+    background-color: red;
+}
+#classify .buttonViewArea ul li a img {
+    width: 70%;
+    margin: 9px 0px 0px;
+    display: inline-block;
+}
+
+#classify .buttonViewArea ul li a b {
+    width: 60px;
+    height: 20px;
+    font: 13px/20px 微軟正黑體;
+    color: #000000;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+

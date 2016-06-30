@@ -1,0 +1,42 @@
+<style>
+    .back0{
+        background-color: rgb(190, 151, 237) !important;
+    }
+    .back1{
+        background-color: rgb(255, 144, 159) !important;
+    }
+    .back2{
+        background-color: rgb(150, 172, 232) !important;
+    }
+    .back3{
+        background-color: rgb(150, 172, 232) !important;
+    }
+    .back4{
+        background-color: rgb(150, 172, 232) !important;
+    }
+
+
+</style>
+<ion-view id="classify">
+    <ion-nav-bar>
+        <h3>
+            <span class="memberBtn">
+                <a class="loginBtn">登录</a>/
+                <a class="registerBtn">注册</a>
+            </span>
+            <span class="closeBtn"></span>
+        </h3>
+    </ion-nav-bar>
+    <ion-content class="has-header classify">
+        <div class="buttonViewArea">
+            <ul class="BtnArea">
+                <li ng-repeat="item in getList">
+                    <a href="#" ng-class="bg|backFilter:$index">
+                        <img class="selectedImg" src="{{item.imgSrc}}"/>
+                        <b>{{item.title}}</b>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </ion-content>
+</ion-view>

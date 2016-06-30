@@ -1,0 +1,19 @@
+<ion-view view-title="首页">
+	<ion-nav-bar class="bar pink">
+		<a class="classification"></a>
+		<h1 class="logo"><img src="img/momoActionLogo.png"/></h1>
+		<a class="search"></a>
+	</ion-nav-bar>
+	<ion-tabs class="bar-clear tabs-icon-top">
+		<ion-tab title="首页" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" href="#/mall/index/focus">
+			<ion-nav-view name="mall-index"></ion-nav-view>
+		</ion-tab>
+		<ion-tab title="商品分类" icon-on="ion-ios-keypad" icon-off="ion-ios-keypad-outline" href="#/classify">
+			<ion-nav-view name="classify"></ion-nav-view>
+		</ion-tab>
+		<ion-tab title="购物车" icon-on="ion-ios-cart" icon-off="ion-ios-cart-outline"></ion-tab>
+		<ion-tab title="会员中心" icon-on="ion-ios-person" icon-off="ion-ios-person-outline" href="#/mall/owner">
+			<ion-nav-view name="mall-owner"></ion-nav-view>
+		</ion-tab>
+	</ion-tabs>
+</ion-view>

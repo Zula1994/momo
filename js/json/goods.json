@@ -1,0 +1,32 @@
+{
+  "data1": [
+    {"id": "0001","name": "矜蘭妃100%法國亞麻歐風修身洋裝組(J3)","goodsImg": "img/01_Y.jpg", "price": "1,980"},
+    {"id": "0002","name": "雨揚精品-金錢母翻轉戒","goodsImg": "img/02_Y.jpg","price": "1,980"},
+    {"id": "0003","name": "LVANNA渲染花采羽絲棉柔感襯衫組","goodsImg": "img/03_Y.jpg","price": "1,680"}
+  ],
+  "data2" : [
+    {"id": "0004","name": "【倍潔雅】抽取衛生紙150抽X60包","goodsImg": "img/04_Y.jpg","price": "588[折后]"},
+    {"id": "0005","name": "買一送一超值組珪藻土超吸水地墊","goodsImg": "img/05_Y.jpg","price": "899"},
+    {"id": "0006","name": "時光行者純PC鋁框行李箱(J3)","goodsImg": "img/06_Y.jpg", "price": "3,580up"},
+    {"id": "0007","name": "專櫃聯合精選上衣/修身洋裝褲款","goodsImg": "img/07_Y.jpg","price": "380up"},
+    {"id": "0008","name": "理膚寶水夏日保養組52折up","goodsImg": "img/08_Y.jpg","price": "600up"},
+    {"id": "0009","name": "BeatsPill 2.0NFC行動藍牙喇叭","goodsImg": "img/09_Y.jpg","price": "6,480"},
+    {"id": "0010","name": "UGIZ x名模天后瘋搶品牌2折UP","goodsImg": "img/10_Y.jpg","price": "99/件up"},
+    {"id": "0011","name": "達芙妮年中慶新款涼鞋夏殺3折價","goodsImg": "img/11_Y.jpg", "price": "499up"},
+    {"id": "0012","name": "Slender暢快錠二代升級版10入","goodsImg": "img/12_Y.jpg","price": "90/瓶"},
+    {"id": "0013","name": "極黑和牛黑牌沙朗牛排 2片","goodsImg": "img/13_Y.jpg","price": "1,000/片"}
+  ],
+  "data3":[
+    {"id": "0014","name": "飛利浦PHILIPS","goodsImg": "img/14_Y.jpg","price": "9,900","specialTitle":"貼鑽SPA美膚儀$9900"},
+    {"id": "0015","name": "【Travelhouse】","goodsImg": "img/15_Y.jpg","price": "3,280","specialTitle":"5年保固↘$1180up"},
+    {"id": "0016","name": "【OGUMA水美媒】","goodsImg": "img/16_Y.jpg", "price": "1,880","specialTitle":"momo獨家限時↘$235up"},
+    {"id": "0017","name": "愛蜜果","goodsImg": "img/17_Y.jpg","price": "589/盒","specialTitle":"嚴選優質水果↘75折up"},
+    {"id": "0018","name": "【OSIM】uLove白馬王子","goodsImg": "img/18_Y.jpg","price": "139,800","specialTitle":"國際巨星 范冰冰代言推薦"},
+    {"id": "0019","name": "【台灣三洋】13KG變頻洗衣機","goodsImg": "img/19_Y.jpg","price": "1,4,999[折后]","specialTitle":"下殺現折2,000"},
+    {"id": "0020","name": "【美寧】旗艦級透涼移動冷氣機","goodsImg": "img/20_Y.jpg","price": "16,800","specialTitle":"4折起"},
+    {"id": "0021","name": "【瑪莉菲絲】高調A++動塑升級絕對好動撞色運動內衣/短褲組","goodsImg": "img/21_Y.jpg", "price": "1,280","specialTitle":"內衣*1+運動短褲*1"},
+    {"id": "0022","name": "【GARMIN】Forerunner 全能運動錶","goodsImg": "img/22_Y.jpg","price": "16,990","specialTitle":"腕式心率GPS運動錶"},
+    {"id": "0023","name": "台東鹿鳴溫泉酒店","goodsImg": "img/23_Y.jpg","price": "3,999","specialTitle":"熱氣球嘉年華*溫泉雙人客房"},
+    {"id": "0024","name": "【OSIM】OSIM刮痧按摩棒","goodsImg": "img/24_Y.jpg","price": "3,980","specialTitle":"加碼送凡士林"}
+  ]
+}

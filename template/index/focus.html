@@ -1,0 +1,174 @@
+<div id="fourTwo">
+    <ion-slide-box does-continue="true" auto-play="true" slide-interval="2000">
+        <ion-slide>
+            <div class="bannerBox"><img src="img/bt_01.jpg"/></div>
+        </ion-slide>
+        <ion-slide>
+            <div class="bannerBox"><img src="img/bt_02.jpg"/></div>
+        </ion-slide>
+        <ion-slide on-slide-changed="slideHasChanged(index)">
+            <div class="bannerBox"><img src="img/bt_03.jpg"/></div>
+        </ion-slide>
+    </ion-slide-box>
+    <div class="content">
+        <div class="tipsMenuArea">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/btn_01.png" alt="">
+                        <p>独家商品</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/btn_02.png" alt="">
+                        <p>免费贴图</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/btn_03.png" alt="">
+                        <p>天天登记</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/btn_04.png" alt="">
+                        <p>凉夏特企</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/btn_01.png" alt="">
+                        <p>独家商品</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/btn_02.png" alt="">
+                        <p>免费贴图</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/btn_03.png" alt="">
+                        <p>天天登记</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/btn_04.png" alt="">
+                        <p>凉夏特企</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="smallBannerArea">
+            <img src="img/ban_01.gif" alt="">
+        </div>
+        <div class="smallBannerArea">
+            <ul class="style3">
+                <li>
+                    <a href="#">
+                        <img src="img/ban_02.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/ban_03.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/ban_04.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="hotTextArea">
+            <img src="img/hot_01.png" alt="">
+            <ul class="TabContent">
+                <li class="TabContentD" ng-repeat="item in getHotText">
+                    <span>{{item.title}}</span>
+                    <span class="secondHotText">{{item.secondText}}</span>
+                </li>
+                <li class="TabContentD">
+                    <span>电视购物</span>
+                    <span class="secondHotText">剁手不怕5折UP</span>
+                </li>
+            </ul>
+        </div>
+        <div id="btTvLive">
+            <div class="innerArea">
+                <div class="titleArea">
+                    <h2 style="background: #e31313"><img src="img/tvLiveTitle.png" alt=""></h2>
+                </div>
+                <div id='btTvLiveContent' class="threePrd prdList">
+                    <ul>
+                        <li ng-repeat="item in goodsList1">
+                            <a href="#">
+                                <img src="{{item.goodsImg}}" alt="">
+                                <p class="prdName">{{item.name}}</p>
+                                <p class="prdPrice">$<b>{{item.price}}</b></p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="smallBannerArea">
+            <img src="img/ban_05.jpg" alt="">
+        </div>
+        <div class="smallBannerArea">
+            <ul class="style2">
+                <li>
+                    <a href="#">
+                        <img src="img/ban_06.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/ban_07.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="innerArea">
+            <div class="titleArea">
+                <h2 style="background: #FF6100"><img src="img/miaoShaTitle.png" alt=""></h2>
+            </div>
+            <div class="prdList">
+                <ul>
+                    <li ng-repeat="item in goodsList2">
+                        <a href="#">
+                            <img src="{{item.goodsImg}}" alt="">
+                            <p class="prdName">{{item.name}}</p>
+                            <p class="prdPrice">$<b>{{item.price}}</b></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="innerArea">
+            <div class="titleArea">
+                <h2 style="background: #e40080"><img src="img/tuijian.png" alt=""></h2>
+            </div>
+            <div class="prdList popularList">
+                <ul>
+                    <li ng-repeat="item in goodsList3">
+                        <a href="#">
+                            <img src="{{item.goodsImg}}" alt="">
+                            <p class="prdName">{{item.name}}</p>
+                            <p class="specialText">{{item.specialTitle}}</p>
+                            <p class="prdPrice">$<b>{{item.price}}</b></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="basicInformation">
+            <p>copyright@朱璐</p>
+        </div>
+    </div>
+
+</div>
